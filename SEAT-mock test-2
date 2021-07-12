@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{
+    int x,a;
+    scanf("%d",&x);
+    a=x*3;
+    printf("%d people were there in total",a);
+    return 0;
+}
+
+//50
+150  people were there in total
+
+#include<stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    if(n % 4 == 0)
+    {
+        printf("%d: YES",n);
+    }
+    else
+    {
+        printf("%d: NO",n);
+    }
+    return 0;
+}
+//2016
+2016:YES
